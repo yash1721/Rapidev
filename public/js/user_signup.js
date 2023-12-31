@@ -50,6 +50,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
   const name = document.getElementById('name').value;
   const dob = document.getElementById('dob').value;
   const gender = document.getElementById('gender').value;
+  const aadharNumber = document.getElementById('aadhar').value;
   const address = document.getElementById('address').value;
 
   const signupData = {
@@ -59,6 +60,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
       phno: phno,
       dob: dob,
       gender: gender,
+      aadharNumber: aadharNumber,
       address: address,
   };
 
